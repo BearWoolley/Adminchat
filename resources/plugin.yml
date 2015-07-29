@@ -1,0 +1,14 @@
+name: Adminchat
+main: uk.co.joshuawoolley.Adminchat.Adminchat
+version: 1.0.0
+
+commands:
+  a:
+    description: Command to do adminchat
+    usage: /<command> [message]
+    permission: adminchat.admin
+
+permissions:
+  adminchat.admin:
+    description: Gives access to admin chat
+    default: op
